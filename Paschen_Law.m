@@ -1,15 +1,19 @@
 %% Paschen Law 
 % Using Townsend Breakdown Equation 
 % Created by Chandler Hutchens
-clear all
-format short 
+
+format compact ;
+format long ;
+close all ;
+clear all ;
+clc ;
 
 %% Variables 
 A = 112.5 ; % Constant - kPa*cm 
 B = 2737.5 ; % Constans - V/(kPa*cm)
-p = .1 ; % Torr
+p = 10 ; % Torr
 p1 = p ./ 7.501 ; % kPa
-d = 1 ; % cm
+d = .2 ; % cm
 pd = p1 *d ; 
 
 %% Calculations
